@@ -5,14 +5,17 @@ layout: home
 hero:
   name: "HelvetiaRP Wiki"
   text: "Bienvenue sur le wiki du serveur Helvetia Roleplay !"
-  tagline: My great project tagline
+  tagline: Ici tu pourra apprendre plein de trucs sur le serveur et son fonctionnement.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Tutoriels
+      link: /tutoriels/connecter-au-serveur
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Configurer ses touches
+      link: /touches-commandes/configurer-touche
+    - theme: alt
+      text: Notre team
+      link: /team
 
 features:
   - title: Feature A
@@ -21,5 +24,5 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
 
+---
