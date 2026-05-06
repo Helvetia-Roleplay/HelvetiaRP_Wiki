@@ -4,12 +4,15 @@ layout: home
 
 hero:
   name: "HelvetiaRP Wiki"
-  text: "Bienvenue sur le wiki du serveur Helvetia Roleplay !"
+  text: "Bienvenue !"
   tagline: Ici tu pourra apprendre plein de trucs sur le serveur et son fonctionnement.
+  image:
+    src: /LogoHelvetiaRP.svg
+    alt: VitePress
   actions:
     - theme: brand
-      text: Tutoriels
-      link: /tutoriels/connecter-au-serveur
+      text: SE CONNECTER
+      link: /Guides/connecter-au-serveur
     - theme: alt
       text: Configurer ses touches
       link: /touches-commandes/configurer-touche
@@ -18,11 +21,52 @@ hero:
       link: /team
 
 features:
-  - title: Feature A
+  - title: Tutoriels
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+    link: /Guides/tutoriels
+
+  - title: Touches et commandes
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+    link: /tutoriels/tutoriels
+
+  - title: La vie sur HelvetiaRP
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /tutoriels/tutoriels
+
+  - title: Tutoriels
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /tutoriels/tutoriels
+
+  - title: Touches et commandes
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /tutoriels/tutoriels
+
+  - title: La vie sur HelvetiaRP
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /tutoriels/tutoriels
+
+  - title: Tutoriels
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /tutoriels/tutoriels
+
+  - title: Touches et commandes
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /tutoriels/tutoriels
+
+  - title: La vie sur HelvetiaRP
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /tutoriels/tutoriels
+
+  - title: Tutoriels
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /tutoriels/tutoriels
+
+  - title: Touches et commandes
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /tutoriels/tutoriels
+    
+  - title: La vie sur HelvetiaRP
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /tutoriels/tutoriels
 
 ---

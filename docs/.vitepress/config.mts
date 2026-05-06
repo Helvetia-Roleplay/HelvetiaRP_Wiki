@@ -2,9 +2,11 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "HelvetiaRP Wiki",
+  title: "HelvetiaRP V2",
   description: "Bienvenue sur le wiki du serveur Helvetia Roleplay !",
   appearance: true,
+  lastUpdated: true,
+  head: [['link', { rel: 'icon', href: '/LogoHelvetiaRP.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -28,11 +30,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Tutoriels',
-        base: '/tutoriels',
+        text: 'Règlements',
+        base: '/Reglements',
+        link: '/tutoriels',
         collapsed: false,
         items: [
-          { text: 'Se connecter au serveur', link: '/connecter-au-serveur' },
           { text: 'Vider son cache FiveM', link: '/vider-cache-fivem' },
           { text: 'Gestion du volume', link: '/gestion-volume' },
           { text: 'Commandes', link: '/chat-vocal' },
@@ -48,20 +50,11 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Touches et commandes',
-        base: '/touches-commandes',
+        text: 'Guides du serveur',
+        base: '/Guides',
         collapsed: false,
         items: [
-          { text: 'Configurer ses touches', link: '/configurer-touche' },
-          { text: 'Touches', link: '/touches' },
-          { text: 'Commandes', link: '/commandes' },
-        ],
-      },
-      {
-        text: 'La vie sur HelvetiaRP',
-        base: '/vie-sur-helvetiarp',
-        collapsed: false,
-        items: [
+          { text: 'Se connecter au serveur', link: '/connecter-au-serveur' },
           { text: 'Configurer ses touches', link: '/configurer-touche' },
           { text: 'Touches', link: '/touches' },
           { text: 'Commandes', link: '/commandes' },
@@ -93,6 +86,11 @@ export default defineConfig({
           }
         }
       }
+    },
+
+    footer: {
+      message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
+      copyright: 'Copyright © 2026-present <a href="https://github.com/Helvetia-Roleplay">Helvetia RP</a>'
     },
   }
 })
