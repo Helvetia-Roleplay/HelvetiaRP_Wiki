@@ -5,7 +5,7 @@ export default defineConfig({
   title: "HelvetiaRP V2",
   description: "Bienvenue sur le wiki du serveur Helvetia Roleplay !",
   appearance: true,
-  lastUpdated: true,
+
   head: [['link', { rel: 'icon', href: '/LogoHelvetiaRP.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -28,25 +28,21 @@ export default defineConfig({
 
     logo: '/LogoHelvetiaRP.svg',
 
+    lastUpdated: {
+      text: 'Mis à jour le',
+      formatOptions: {
+        dateStyle: 'short'
+      }
+    },
+
     sidebar: [
       {
         text: 'Règlements',
         base: '/Reglements',
-        link: '/tutoriels',
+        link: '/reglements',
         collapsed: false,
         items: [
           { text: 'Vider son cache FiveM', link: '/vider-cache-fivem' },
-          { text: 'Gestion du volume', link: '/gestion-volume' },
-          { text: 'Commandes', link: '/chat-vocal' },
-          {
-            text: 'Résolution des problèmes',
-            base: '/resolution-problemes',
-            collapsed: false,
-            items: [
-              { text: 'Configurer ses touches', link: '/connecter-au-serveur' },
-              { text: 'Touches', link: '/vider-cache-fivem' },
-            ],
-          },
         ],
       },
       {
@@ -55,9 +51,33 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Se connecter au serveur', link: '/connecter-au-serveur' },
-          { text: 'Configurer ses touches', link: '/configurer-touche' },
+          { text: 'Gestion du volume', link: '/gestion-volume' },
+          { text: 'Chat vocal', link: '/chat-vocal' },
+          { text: '⚙️ Configurer ses touches', link: '/configurer-touche' },
+          { text: '⌨️ Touches', link: '/touches' },
+          { text: '📇 Commandes', link: '/commandes' },
+          {
+            text: 'Résolution des problèmes',
+            base: '/Guides/resolution-problemes',
+            collapsed: false,
+            items: [
+              { text: 'Vider son cache', link: '/vider-cache-fivem' },
+              { text: 'Texture map qui charge pas', link: '/texture-map-charge-pas' },
+              { text: 'Lag des interfaces', link: '/lag-interfaces' },
+            ],
+          },
+          {
+            text: 'Entreprises',
+            base: '/Entreprises',
+            link: '/entreprises',
+            collapsed: false,
+            items: [
+              { text: 'Se connecter au serveur', link: '/connecter-au-serveur' },
+            ],
+          },
+          /*{ text: 'Configurer ses touches', link: '/configurer-touche' },
           { text: 'Touches', link: '/touches' },
-          { text: 'Commandes', link: '/commandes' },
+          { text: 'Commandes', link: '/commandes' },*/
         ],
       },
     ],

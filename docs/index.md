@@ -15,58 +15,34 @@ hero:
       link: /Guides/connecter-au-serveur
     - theme: alt
       text: Configurer ses touches
-      link: /touches-commandes/configurer-touche
+      link: /Guides/touches-commandes/configurer-touche
     - theme: alt
       text: Notre team
       link: /team
 
 features:
-  - title: Tutoriels
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /Guides/tutoriels
+  - title: Gestion du volume
+    details: Si tu a du mal à régler le volume venant de FiveM? Ce tuto est fait pour toi!
+    link: /Guides/gestion-volume
 
-  - title: Touches et commandes
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
+  - title: Chat vocal
+    details: Pour paramétrer le chat vocal
+    link: /Guides/chat-vocal
 
-  - title: La vie sur HelvetiaRP
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
+  - title: Touches
+    details: Voici la listes des touches du serveur, certaines sont modifiables!
+    link: /Guides/touches
 
-  - title: Tutoriels
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
+  - title: Commandes
+    details: La listes des commandes disponible sur le serveur!
+    link: /Guides/commandes
 
-  - title: Touches et commandes
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
+  - title: Vider son cache
+    details: Vider son cache peut être utile si vous avec des problèmes de chargement avec la map par exemple.
+    link: /Guides/resolution-problemes/vider-cache-fivem
 
-  - title: La vie sur HelvetiaRP
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
-
-  - title: Tutoriels
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
-
-  - title: Touches et commandes
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
-
-  - title: La vie sur HelvetiaRP
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
-
-  - title: Tutoriels
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
-
-  - title: Touches et commandes
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
-    
-  - title: La vie sur HelvetiaRP
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /tutoriels/tutoriels
+  - title: Les entreprises du serveur
+    details: Vous y trouverez les liens pour rejoindre leurs serveurs Discord.
+    link: /Entreprises/entreprises
 
 ---
