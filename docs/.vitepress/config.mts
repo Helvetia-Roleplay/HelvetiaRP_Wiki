@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/HelvetiaRP_Wiki/'
+  base: '/HelvetiaRP_Wiki/',
   title: "HelvetiaRP V2",
   description: "Bienvenue sur le wiki du serveur Helvetia Roleplay !",
   appearance: true,
