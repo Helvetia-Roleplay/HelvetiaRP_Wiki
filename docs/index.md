@@ -7,7 +7,7 @@ hero:
   text: "Bienvenue !"
   tagline: Ici tu pourra apprendre plein de trucs sur le serveur et son fonctionnement.
   image:
-    src: */LogoHelvetiaRP.svg
+    src: /LogoHelvetiaRP.svg
     alt: LogoHelvetiaRP
   actions:
     - theme: brand
