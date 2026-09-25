@@ -8,7 +8,7 @@ hero:
   tagline: Ici tu pourra apprendre plein de trucs sur le serveur et son fonctionnement.
   image:
     src: /LogoHelvetiaRP.svg
-    alt: VitePress
+    alt: LogoHelvetiaRP
   actions:
     - theme: brand
       text: SE CONNECTER
