@@ -37,7 +37,7 @@ jobs:
         with:
           # Modifiez ce chemin pour qu'il corresponde à votre dossier de sortie réel
           # Par exemple, si vous utilisez un dossier 'docs' : path: docs/.vitepress/dist
-          path: .vitepress/docs
+          path: docs/.vitepress/dist
 
   deploy:
     environment:
