@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "HelvetiaRP Wiki"
+  name: "HelvetiaRP V2 Wiki"
   text: "Bienvenue !"
   tagline: Ici tu pourra apprendre plein de trucs sur le serveur et son fonctionnement.
   image:
@@ -31,11 +31,11 @@ features:
 
   - title: Touches
     details: Voici la listes des touches du serveur, certaines sont modifiables!
-    link: /Guides/touches
+    link: /Guides/touches-commandes/touches
 
   - title: Commandes
     details: La listes des commandes disponible sur le serveur!
-    link: /Guides/commandes
+    link: /Guides/touches-commandes/commandes
 
   - title: Vider son cache
     details: Vider son cache peut être utile si vous avec des problèmes de chargement avec la map par exemple.

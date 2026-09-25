@@ -37,11 +37,11 @@ const direction = [
     ]
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/1233849752727322755/60e9f403cb949547e6afa948429bfbee.png',
-    name: 'TheMofficiel',
+    avatar: 'https://cdn.discordapp.com/avatars/368847558170378250/a_26109e3dbc996b0c1fd1bbe1e5d20d92.gif',
+    name: 'Menokaa',
     title: 'Responsable staff',
     links: [
-      { icon: 'discord', link: 'https://discord.com/users/1233849752727322755' },
+      { icon: 'discord', link: 'https://discord.gg/DWWem3eGXR' },
     ]
   },
 ]
@@ -59,14 +59,6 @@ const staff = [
     avatar: 'https://cdn.discordapp.com/avatars/1088118096335745094/1e656721d204045ffd1bc58fb0d04321.png',
     name: 'Locviidv',
     title: 'Community Manager',
-    links: [
-      { icon: 'discord', link: 'https://discord.gg/DWWem3eGXR' },
-    ]
-  },
-  {
-    avatar: 'https://cdn.discordapp.com/avatars/368847558170378250/a_26109e3dbc996b0c1fd1bbe1e5d20d92.gif',
-    name: 'Menokaa',
-    title: 'Modératrice',
     links: [
       { icon: 'discord', link: 'https://discord.gg/DWWem3eGXR' },
     ]

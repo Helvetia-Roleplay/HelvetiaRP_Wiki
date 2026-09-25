@@ -8,7 +8,7 @@ const entreprises = [
     title: "Conseil d’État",
     details: "Recrutement ouvert! Cliquez ici pour rejoindre l'intranet de l\'entreprise.",
     link: "https://discord.gg/tJRFQWP6n",
-    image: "/1erAout2025.png"
+    image: "./public/1erAout2025.png"
   },
   {
     title: "Police Cantonale",

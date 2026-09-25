@@ -8,11 +8,10 @@ export default defineConfig({
   appearance: true,
   ignoreDeadLinks: true,
 
-  head: [['link', { rel: 'icon', href: '/LogoHelvetiaRP.ico' }]],
+  head: [['link', { rel: 'icon', href: '/HelvetiaRP_Wiki/LogoHelvetiaRP.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Discord', link: 'https://discord.gg/GXNs54yhf3' },
       { text: 'Ouvrir FiveM', link: 'https://cfx.re/join/gmxpxq' },
       {
         text: 'Réseaux',
@@ -44,7 +43,8 @@ export default defineConfig({
         link: '/reglements',
         collapsed: false,
         items: [
-          { text: 'Vider son cache FiveM', link: '/vider-cache-fivem' },
+          { text: 'Légal', link: '/reglement-legal' },
+          { text: 'Illégal', link: '/reglement-illegal' },
         ],
       },
       {
@@ -55,9 +55,9 @@ export default defineConfig({
           { text: 'Se connecter au serveur', link: '/connecter-au-serveur' },
           { text: 'Gestion du volume', link: '/gestion-volume' },
           { text: 'Chat vocal', link: '/chat-vocal' },
-          { text: '⚙️ Configurer ses touches', link: '/configurer-touche' },
-          { text: '⌨️ Touches', link: '/touches' },
-          { text: '📇 Commandes', link: '/commandes' },
+          { text: '⚙️ Configurer ses touches', link: '/touches-commandes/configurer-touche' },
+          { text: '⌨️ Touches', link: '/touches-commandes/touches' },
+          { text: '📇 Commandes', link: '/touches-commandes/commandes' },
           {
             text: 'Résolution des problèmes',
             base: '/Guides/resolution-problemes',
@@ -85,7 +85,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Helvetia-Roleplay' }
+      { icon: 'discord', link: 'https://discord.gg/GXNs54yhf3' }
     ],
 
     search: {
