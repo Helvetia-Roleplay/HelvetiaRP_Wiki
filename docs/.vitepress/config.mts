@@ -6,6 +6,7 @@ export default defineConfig({
   title: "HelvetiaRP V2",
   description: "Bienvenue sur le wiki du serveur Helvetia Roleplay !",
   appearance: true,
+  ignoreDeadLinks: true,
 
   head: [['link', { rel: 'icon', href: '/LogoHelvetiaRP.ico' }]],
   themeConfig: {
