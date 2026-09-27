@@ -1,19 +1,40 @@
+# ⚡ Résolution du Lag des Interfaces (NUI)
+
+Si vous constatez des ralentissements, des baisses importantes de FPS à l'ouverture de l'inventaire (<kbd>TAB</kbd>), du smartphone (<kbd>F1</kbd>) ou du menu radial, suivez ces recommandations techniques.
+
 ---
-title: 𝐋𝐚𝐠 𝐝𝐞𝐬 𝐢𝐧𝐭𝐞𝐫𝐟𝐚𝐜𝐞𝐬
+
+## ⚙️ Solution 1 : Activer le GPU pour les Processus NUI
+
+FiveM permet de décharger l'affichage des interfaces web (NUI) sur votre carte graphique plutôt que sur le processeur :
+
+1. Sur l'écran d'accueil principal de FiveM (avant de vous connecter au serveur).
+2. Cliquez sur l'icône d'engrenage **Paramètres** (en haut à droite).
+3. Rendez-vous dans l'onglet **Jeu** (*Game*).
+4. Cochez l'option : **Activer l'accélération matérielle de l'interface (GPU en processus NUI)**.
+5. Redémarrez FiveM pour appliquer la modification.
+
+<div class="image-placeholder">
+  <div class="image-placeholder-icon">📸</div>
+  <div class="image-placeholder-title">Capture d'écran recommandée : Paramètres de l'application FiveM</div>
+  <div class="image-placeholder-desc">Fenêtre des paramètres du client FiveM mettant en surbrillance l'option d'accélération matérielle GPU NUI dans l'onglet Jeu.</div>
+</div>
+
 ---
 
-# 𝐋𝐚𝐠 𝐝𝐞𝐬 𝐢𝐧𝐭𝐞𝐫𝐟𝐚𝐜𝐞𝐬
+## 🖥️ Solution 2 : Désactiver les Overlays Tiers
 
-copyCopierchevron-downblock-quoteSur cette pageblock-quote[ℹ️𝐓𝐮𝐭𝐨𝐫𝐢𝐞𝐥𝐬](/helvetia-rp-wiki/undefined-1)chevron-right[🐛𝐑𝐞𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 𝐝𝐞 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐞𝐬](/helvetia-rp-wiki/undefined-1/undefined-4)
-# 𝐋𝐚𝐠 𝐝𝐞𝐬 𝐢𝐧𝐭𝐞𝐫𝐟𝐚𝐜𝐞𝐬
+Certains logiciels en arrière-plan injectent des calques graphiques qui entrent en conflit direct avec le moteur Chromium de FiveM :
 
-Si vous rencontrez des problèmes de lenteur avec les interfaces et menus comme le téléphone ou le menu radial, suivre ce tutoriel vous aidera probablement !
+- **Discord Overlay** : Ouvrez Discord ➔ *Paramètres utilisateur* ➔ *Superposition en jeu* ➔ Désactivez la superposition.
+- **Nvidia GeForce Experience (Shadowplay)** : Désactivez la superposition en jeu si vous n'enregistrez pas activement.
+- **Razer Chroma / Synapse / Overwolf** : Fermez ces utilitaires en arrière-plan.
 
-### [hashtag](#etapes-pour-regler-ce-probleme)Étapes pour régler ce problème :
+---
 
-Dans le menu FiveM, allez dans les réglages en haut à droite
-Puis rendez-vous dans la page Jeu et cocher la case GPU en processus NUI
+## 🗑️ Solution 3 : Nettoyer le dossier `nui-storage`
 
-Attention ! Cela peut entrainer des problèmes de stabilité ou des crash
-
-[Précédent𝐓𝐞𝐱𝐭𝐮𝐫𝐞𝐬 𝐨𝐮 𝐦𝐚𝐩 𝐪𝐮𝐢 𝐧𝐞 𝐜𝐡𝐚𝐫𝐠𝐞 𝐩𝐚𝐬chevron-left](/helvetia-rp-wiki/undefined-1/undefined-4/undefined)[Suivant𝐓𝐨𝐮𝐜𝐡𝐞𝐬 𝐞𝐭 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬chevron-right](/helvetia-rp-wiki/undefined-2)
+1. Fermez FiveM.
+2. Accédez au dossier `%LocalAppData%\FiveM\FiveM.app\data`.
+3. Supprimez le dossier nommé `nui-storage`.
+4. Relancez FiveM.

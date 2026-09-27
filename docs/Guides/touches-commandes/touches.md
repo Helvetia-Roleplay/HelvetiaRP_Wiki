@@ -1,39 +1,71 @@
-# ⌨️ Touches
+# ⌨️ Guide Complet des Touches
 
-Voici la listes des touches du serveur, certaines sont modifiables en allant dans : 
-*Réglages -> Config. des touches -> FiveM*
+Retrouvez ci-dessous la liste complète des raccourcis clavier du serveur **HelvetiaRP V2**. 
 
-**PS** : Certaines touches ne sont spécifique que aux claviers **QWERTZ**
+::: tip ⚙️ Personnalisation des touches
+La plupart des touches sont personnalisables à tout moment dans le menu de GTA/FiveM :  
+`Échap` ➔ `Paramètres` ➔ `Configuration des touches` ➔ `FiveM`.  
+Consultez notre [Tutoriel de configuration des touches](/Guides/touches-commandes/configurer-touche).
+:::
 
-## Général
+---
 
-ALT - Interaction avec PNJ, objets, items, etc...
+## 🚶 Général & Vie Quotidienne
 
-- Pour effectuer ces actions, il te faut pointer la chose à interagir et appuyer sur ALT, faire clic droit pour voir les actions puis clic gauche sur une des actions proposée pour la choisir.
+| Touche | Action / Fonction | Précisions |
+| :--- | :--- | :--- |
+| <kbd>ALT Gauche</kbd> (maintenu) | **Interactions Ciblées (Ox Target)** | Viser un objet/citoyen + Clic Gauche pour choisir l'action. |
+| <kbd>E</kbd> | **Interaction Secondaire** | Interagir avec certains menus et contextes. |
+| <kbd>TAB</kbd> ou <kbd>K</kbd> | **Ouvrir l'Inventaire** | Gestion des 60 slots et raccourcis 1 à 5. |
+| <kbd>1</kbd> à <kbd>5</kbd> | **Raccourcis d'Objets & Armes** | Utiliser ou équiper rapidement un objet de la barre haute. |
+| <kbd>F1</kbd> ou <kbd>M</kbd> | **Smartphone & Menu Radial** | Téléphone personnel et actions contextuelles. |
+| <kbd>F3</kbd> | **Menu des Emotes** | Catalogue complet d'animations, danses et attitudes de marche. |
+| <kbd>X</kbd> | **Lever les mains** (à pied) | Geste de reddition ou contrôle de police. |
+| <kbd>Ctrl Gauche</kbd> | **S'accroupir** | Se baisser pour passer sous un obstacle ou être discret. |
+| <kbd>T</kbd> | **Ouvrir le Chat Textuel** | Pour taper les commandes `/me`, `/report`, etc. |
+| <kbd>I</kbd> | **Paramètres du HUD** | Personnaliser l'affichage de vos jauges à l'écran. |
+| <kbd>U</kbd> | **Tomber (Ragdoll)** | Simuler une chute ou un évanouissement RP. |
+| <kbd>C</kbd> | **Sélecteur de Tir** | Changer de mode de tir en visant avec une arme (Semi-auto / Rafale / Auto). |
+| <kbd>Échap</kbd> | **Fermer les Menus** | Quitter l'interface active. |
+| <kbd>F8</kbd> | **Console Client FiveM** | Commandes techniques et messages du client. |
 
-E - Touche d'interaction secondaire  
-ESC - Ferme la plupart des menus  
-F1 - Menu Radial  
-M ou G (Je recommande de changer pour F2) - Téléphone  
-F3 - Menu Emotes  
-F8 - Console FiveM  
-TAB - Inventaire  
-N - Parler IG (Si le chat vocal en mode [Appuyer pour parler](/Guides/chat-vocal) est activé)  
-à - Changer la portée de la voix  
-T - Écrire dans le chat  
-I - Paramètre du HUD  
-U - Tomber  
-C - Sélecteur de tir (Il faut se mettre en visée avec l'arme)  
+<div class="image-placeholder">
+  <div class="image-placeholder-icon">📸</div>
+  <div class="image-placeholder-title">Capture d'écran recommandée : Menu de configuration des touches FiveM</div>
+  <div class="image-placeholder-desc">Écran des paramètres FiveM montrant la liste des touches réassignables (Inventaire, Clés, Ceinture, Téléphone, Radio).</div>
+</div>
 
-## Véhicules
+---
 
-Z ou L ou Y - Clé véhicule  
-X - Ceinture véhicules  
-F - Monter/descendre d'un véhicule (Si maintenu, laisse le moteur tourner)  
-TAB - Inventaire du coffre (il faut être hors du véhicule) ou si dans véhicule - Boîte à gants  
-F1 -> Véhicule - Gestion du véhicule  
-F5/F6/F7 - Sirènes ELS  
-R - Lumière ELS  
-Q - Changer de radio  
-E - Klaxon  
-G - Éteindre ou allumer le moteur
+## 🎙️ Voix & Communications
+
+| Touche | Action | Précisions |
+| :--- | :--- | :--- |
+| <kbd>N</kbd> (ou paramétrée) | **Parler en Jeu (Push-To-Talk)** | Si le mode vocal "Appuyer pour parler" est activé. |
+| <kbd>à</kbd> ou <kbd>²</kbd> (*Grave*) | **Changer la Portée de Voix** | Alterne entre *Chuchoter (1.5m)*, *Normal (8m)* et *Crier (25m)*. |
+| <kbd>ALT Gauche</kbd> ou <kbd>Verr Maj</kbd> | **Parler à la Radio** | Émettre sur la fréquence radio active avec animation épaule. |
+
+---
+
+## 🚗 Véhicules & Conduite
+
+| Touche | Action | Précisions |
+| :--- | :--- | :--- |
+| <kbd>Z</kbd> / <kbd>L</kbd> / <kbd>Y</kbd> | **Verrouiller / Déverrouiller les Portes** | Gestion des clés du véhicule. |
+| <kbd>X</kbd> | **Ceinture de Sécurité** | Indispensable en voiture pour éviter d'être éjecté. |
+| <kbd>G</kbd> | **Démarrer / Couper le Moteur** | Allumage ou arrêt du contact moteur. |
+| <kbd>F</kbd> (maintenu) | **Sortir Moteur Allumé** | Descendre du véhicule en laissant le moteur en marche. |
+| <kbd>TAB</kbd> (à l'arrière) | **Coffre du Véhicule** | Ouvrir le compartiment de stockage du coffre. |
+| <kbd>TAB</kbd> (au volant) | **Boîte à Gants** | Ouvrir le rangement intérieur. |
+| <kbd>Q</kbd> | **Autoradio & Musique** | Changer de station ou allumer la radio du véhicule. |
+| <kbd>E</kbd> | **Klaxon** | Avertisseur sonore civil. |
+
+---
+
+## 🚨 Véhicules d'Urgence & Services Publics (ELS)
+
+| Touche | Action | Précisions |
+| :--- | :--- | :--- |
+| <kbd>R</kbd> | **Gyrophare / Éclairage d'urgence** | Activer les feux prioritaires ELS. |
+| <kbd>F5</kbd> / <kbd>F6</kbd> / <kbd>F7</kbd> | **Tons de Sirènes Suisses** | Alterner les deux-tons officiels d'intervention (Police / Ambulances / Pompiers). |
+| <kbd>E</kbd> | **Sirène Manuelle / Corne** | Coup de sirène ponctuel pour dégager un carrefour. |

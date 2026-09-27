@@ -3,46 +3,49 @@
 layout: home
 
 hero:
-  name: "HelvetiaRP V2 Wiki"
-  text: "Bienvenue !"
-  tagline: Ici tu pourra apprendre plein de trucs sur le serveur et son fonctionnement.
+  name: "HelvetiaRP V2"
+  text: "Le Wiki Officiel"
+  tagline: "Guide complet, règlements, métiers et systèmes exclusifs du serveur FiveM Suisse Romande."
   image:
     src: /LogoHelvetiaRP.svg
-    alt: LogoHelvetiaRP
+    alt: Logo HelvetiaRP
   actions:
     - theme: brand
-      text: SE CONNECTER
+      text: 🚀 SE CONNECTER
       link: /Guides/connecter-au-serveur
     - theme: alt
-      text: Configurer ses touches
-      link: /Guides/touches-commandes/configurer-touche
+      text: 📜 Règlements du Serveur
+      link: /Reglements/reglements
     - theme: alt
-      text: Notre team
+      text: 📖 Tous les Guides
+      link: /Guides/guides
+    - theme: alt
+      text: 👥 Notre Équipe
       link: /team
 
 features:
-  - title: Gestion du volume
-    details: Si tu a du mal à régler le volume venant de FiveM? Ce tuto est fait pour toi!
-    link: /Guides/gestion-volume
+  - title: 🇨🇭 Bien débuter & Identité
+    details: Découvrez vos premiers pas en ville, la création de personnage, le Guichet Cantonal et les assurances.
+    link: /Guides/bien-debuter
 
-  - title: Chat vocal
-    details: Pour paramétrer le chat vocal
-    link: /Guides/chat-vocal
+  - title: 🎒 Inventaire & Ox Target
+    details: Maîtrisez le système de 60 slots, 85 kg max, les raccourcis d'armes 1-5 et les interactions avec ALT.
+    link: /Guides/inventaire-ox
 
-  - title: Touches
-    details: Voici la listes des touches du serveur, certaines sont modifiables!
+  - title: 🚗 Véhicules & Garages
+    details: Achat neuf / occasion, système de clés, essence, gestion des garages publics et fourrière municipale.
+    link: /Guides/vehicules-garages
+
+  - title: 🏢 Entreprises & Métiers Libres
+    details: Postulez aux institutions cantonales ou commencez directement chez Swiss Post, Voirie ou Recyclage.
+    link: /Entreprises/entreprises
+
+  - title: ⌨️ Touches & Commandes
+    details: Guide complet des raccourcis claviers suisses (QWERTZ/AZERTY) et catalogue des commandes en jeu.
     link: /Guides/touches-commandes/touches
 
-  - title: Commandes
-    details: La listes des commandes disponible sur le serveur!
-    link: /Guides/touches-commandes/commandes
-
-  - title: Vider son cache
-    details: Vider son cache peut être utile si vous avec des problèmes de chargement avec la map par exemple.
+  - title: 🛠️ Résolution des Problèmes
+    details: Solutions rapides pour vider son cache FiveM, corriger les textures map ou fluidifier les interfaces NUI.
     link: /Guides/resolution-problemes/vider-cache-fivem
-
-  - title: Les entreprises du serveur
-    details: Vous y trouverez les liens pour rejoindre leurs serveurs Discord.
-    link: /Entreprises/entreprises
 
 ---

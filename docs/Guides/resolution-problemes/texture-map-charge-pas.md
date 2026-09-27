@@ -1,22 +1,36 @@
+# 🗺️ Textures Floues ou Map qui ne Charge Pas
+
+Si vous observez des trous dans la route (le sol disparaît sous votre véhicule), des façades de bâtiments grises ou des textures qui mettent du temps à s'afficher lors de vos déplacements à grande vitesse, suivez ces étapes d'optimisation.
+
 ---
-title: 𝐓𝐞𝐱𝐭𝐮𝐫𝐞𝐬 𝐨𝐮 𝐦𝐚𝐩 𝐪𝐮𝐢 𝐧𝐞 𝐜𝐡𝐚𝐫𝐠𝐞 𝐩𝐚𝐬
+
+## 🛠️ Solution 1 : Augmenter l'Extended Texture Budget (Budget mémoire des textures)
+
+C'est la cause la plus fréquente sur les serveurs moddés disposant de nombreux mappings, tenues suisses et véhicules personnalisés.
+
+1. En jeu, ouvrez le menu pause avec <kbd>Échap</kbd>.
+2. Allez dans `Paramètres` ➔ `Graphismes`.
+3. Faites défiler vers le bas jusqu'au paramètre **Budget de mémoire de texture étendu** (*Extended Texture Budget*).
+4. Augmentez la jauge de **3 à 6 crans** vers la droite.
+5. Surveillez la jauge de mémoire vidéo (VRAM) en haut de l'écran pour rester dans la limite de votre carte graphique.
+6. Validez avec <kbd>Entrée</kbd>.
+
+<div class="image-placeholder">
+  <div class="image-placeholder-icon">📸</div>
+  <div class="image-placeholder-title">Capture d'écran recommandée : Curseur Extended Texture Budget dans GTA V</div>
+  <div class="image-placeholder-desc">Capture des paramètres graphiques de GTA V montrant la barre de VRAM en haut et le curseur "Budget de mémoire de texture étendu" ajusté à mi-chemin.</div>
+</div>
+
 ---
 
-# 𝐓𝐞𝐱𝐭𝐮𝐫𝐞𝐬 𝐨𝐮 𝐦𝐚𝐩 𝐪𝐮𝐢 𝐧𝐞 𝐜𝐡𝐚𝐫𝐠𝐞 𝐩𝐚𝐬
+## 🏎️ Solution 2 : Installer GTA V / FiveM sur un SSD
 
-copyCopierchevron-downblock-quoteSur cette pageblock-quote[ℹ️𝐓𝐮𝐭𝐨𝐫𝐢𝐞𝐥𝐬](/helvetia-rp-wiki/undefined-1)chevron-right[🐛𝐑𝐞𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 𝐝𝐞 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐞𝐬](/helvetia-rp-wiki/undefined-1/undefined-4)
-# 𝐓𝐞𝐱𝐭𝐮𝐫𝐞𝐬 𝐨𝐮 𝐦𝐚𝐩 𝐪𝐮𝐢 𝐧𝐞 𝐜𝐡𝐚𝐫𝐠𝐞 𝐩𝐚𝐬
+Les disques durs mécaniques (HDD) ne sont plus assez rapides pour charger les milliers de textures et modèles 3D FiveM en temps réel.
+- Déplacez impérativement votre jeu GTA V ainsi que le dossier FiveM sur un disque **SSD** (ou SSD NVMe).
 
-Si votre map a du mal à charger (trou dans la map) ou si des problèmes de textures (route et bâtiment flou) surviennent vous pouvez suivre ce tutoriel, et il aidera probablement votre cas !
-Screen de w1lc0
-### [hashtag](#etapes-pour-regler-ce-probleme)Étapes pour régler ce problème :
+---
 
-Vider vos caches peut déjà bien aider à résoudre ce problème (Voir Vider son cache FiveM)
+## 🧹 Solution 3 : Vider le Cache FiveM
 
-Si le problème persiste, allez dans les paramètres graphiques de votre jeu : Réglages -&gt; Graphismes -&gt; Extended Texture Budget
-Jusqu&#x27;à ce que vous n&#x27;ayez plus de problèmes de chargement, vous devrez augmenter votre Extended Texture Budget.
-
-Attention à bien garder un œil sur la mémoire graphique qui vous reste, sur l&#x27;image c&#x27;est la barre verte, elle change de couleur quand la mémoire disponible rétrécit.
-Réglages -&gt; Graphismes -&gt; Extended Texture Budget
-[Précédent𝐑𝐞𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 𝐝𝐞 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐞𝐬chevron-left](/helvetia-rp-wiki/undefined-1/undefined-4)[Suivant𝐋𝐚𝐠 𝐝𝐞𝐬 𝐢𝐧𝐭𝐞𝐫𝐟𝐚𝐜𝐞𝐬chevron-right](/helvetia-rp-wiki/undefined-1/undefined-4/undefined-1)
-Mis à jour il y a 2 ans
+Un cache corrompu ou saturé ralentit le chargement de la map :
+- Suivez notre guide [Vider son Cache FiveM](/Guides/resolution-problemes/vider-cache-fivem).
