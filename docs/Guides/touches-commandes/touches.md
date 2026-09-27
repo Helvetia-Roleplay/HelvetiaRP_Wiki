@@ -14,10 +14,10 @@ Consultez notre [Tutoriel de configuration des touches](/Guides/touches-commande
 
 | Touche | Action / Fonction | Précisions |
 | :--- | :--- | :--- |
-| <kbd>ALT Gauche</kbd> (maintenu) | **Interactions Ciblées (Ox Target)** | Viser un objet/citoyen + Clic Gauche pour choisir l'action. |
+| <kbd>ALT Gauche</kbd> (maintenu) | **Interactions Ciblées** | Viser un objet/citoyen + Clic Gauche pour choisir l'action. |
 | <kbd>E</kbd> | **Interaction Secondaire** | Interagir avec certains menus et contextes. |
-| <kbd>TAB</kbd> ou <kbd>K</kbd> | **Ouvrir l'Inventaire** | Gestion des 60 slots et raccourcis 1 à 5. |
-| <kbd>1</kbd> à <kbd>5</kbd> | **Raccourcis d'Objets & Armes** | Utiliser ou équiper rapidement un objet de la barre haute. |
+| <kbd>TAB</kbd> ou <kbd>M</kbd> | **Ouvrir l'Inventaire** | Gestion des 60 slots et raccourcis 1 à 5. |
+| <kbd>1</kbd> à <kbd>5</kbd> | **Raccourcis d'Objets & Armes** | Utiliser ou équiper rapidement un objet de la hotbar. |
 | <kbd>F1</kbd> ou <kbd>M</kbd> | **Smartphone & Menu Radial** | Téléphone personnel et actions contextuelles. |
 | <kbd>F3</kbd> | **Menu des Emotes** | Catalogue complet d'animations, danses et attitudes de marche. |
 | <kbd>X</kbd> | **Lever les mains** (à pied) | Geste de reddition ou contrôle de police. |
@@ -62,10 +62,10 @@ Consultez notre [Tutoriel de configuration des touches](/Guides/touches-commande
 
 ---
 
-## 🚨 Véhicules d'Urgence & Services Publics (ELS)
+## 🚨 Véhicules d'Urgence & Services Publics
 
 | Touche | Action | Précisions |
 | :--- | :--- | :--- |
-| <kbd>R</kbd> | **Gyrophare / Éclairage d'urgence** | Activer les feux prioritaires ELS. |
-| <kbd>F5</kbd> / <kbd>F6</kbd> / <kbd>F7</kbd> | **Tons de Sirènes Suisses** | Alterner les deux-tons officiels d'intervention (Police / Ambulances / Pompiers). |
-| <kbd>E</kbd> | **Sirène Manuelle / Corne** | Coup de sirène ponctuel pour dégager un carrefour. |
+| <kbd>R</kbd> | **Gyrophare / Éclairage d'urgence** | Activer les feux prioritaires. |
+| <kbd>F5</kbd> / <kbd>F6</kbd> / <kbd>F7</kbd> | **Tons de Sirènes Suisses** | Alterner les deux-tons (Police / Ambulances / Pompiers). |
+| <kbd>E</kbd> | **Sirène Manuelle / Corne** | Coup de sirène. |

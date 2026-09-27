@@ -7,9 +7,8 @@ Le **Réseau Hospitalier** cantonal coordonne l'ensemble des secours préhospita
 ## 🚑 1. Contacter les Secours (144)
 
 En cas de malaise, d'accident de la route, d'hémorragie ou d'agression :
-- **Numéro d'Urgence : 144** depuis l'application d'urgence de votre smartphone.
-- **Message rapide** : Commande `/144m [Précisions de l'urgence et localisation]`
-- Restez calme, décrivez précisément l'état de la victime et attendez l'arrivée de l'ambulance sur place.
+- **Numéro d'Urgence : 144** depuis l'app téléphone de votre smartphone.
+- **Message rapide** : Allez sur l'app **Services** de votre smartphone et séléctionnez Ambulance`
 
 <div class="image-placeholder">
   <div class="image-placeholder-icon">📸</div>

@@ -28,7 +28,7 @@ features:
     details: Découvrez vos premiers pas en ville, la création de personnage, le Guichet Cantonal et les assurances.
     link: /Guides/bien-debuter
 
-  - title: 🎒 Inventaire & Ox Target
+  - title: 🎒 Inventaire & Target
     details: Maîtrisez le système de 60 slots, 85 kg max, les raccourcis d'armes 1-5 et les interactions avec ALT.
     link: /Guides/inventaire-ox
 

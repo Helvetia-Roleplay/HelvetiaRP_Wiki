@@ -1,12 +1,12 @@
-# 🎒 Inventaire Ox & Gestion des Équipements
+# 🎒 Inventaire & Gestion des Équipements
 
-HelvetiaRP V2 utilise le système d'inventaire ultra-complet et réaliste **Ox Inventory**. Chaque objet possède un poids, un volume et une durabilité.
+HelvetiaRP V2 utilise un système d'inventaire complet et réaliste. Chaque objet possède un poids, un volume et une durabilité.
 
 ---
 
 ## 📊 1. Caractéristiques de l'Inventaire
 
-- **Touche d'ouverture** : <kbd>TAB</kbd> (ou <kbd>K</kbd>)
+- **Touche d'ouverture** : <kbd>TAB</kbd>
 - **Capacité de transport** : **60 emplacements (slots)**
 - **Poids maximal** : **85 kg** (85 000 g). Si vous dépassez cette limite, votre personnage sera surchargé et ne pourra plus courir.
 - **Flou d'arrière-plan** : L'inventaire applique un léger flou immersif pour vous concentrer sur vos équipements.
@@ -25,6 +25,7 @@ Les 5 premières cases tout en haut de votre inventaire correspondent aux touche
 
 - Glissez-y vos objets essentiels : bouteille d'eau, sandwich, téléphone, pansements ou lampe torche pour les utiliser d'une seule touche sans ouvrir l'inventaire.
 - **Armes équipées** : Pour équiper ou rengainer une arme, placez-la dans une case rapide (1 à 5) et appuyez sur le chiffre correspondant.
+- Vous pouvez visualiser rapidement ces raccourcis avec la touche <kbd>M</kbd>.
 
 ---
 

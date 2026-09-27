@@ -60,8 +60,8 @@ export default defineConfig({
         text: '🎮 Systèmes & Gameplay',
         collapsed: false,
         items: [
-          { text: '🎒 Inventaire Ox (Poids & Slots)', link: '/Guides/inventaire-ox' },
-          { text: '🎯 Interactions (Ox Target)', link: '/Guides/ox-target' },
+          { text: '🎒 Inventaire (Poids & Slots)', link: '/Guides/inventaire-ox' },
+          { text: '🎯 Interactions', link: '/Guides/ox-target' },
           { text: '🚗 Véhicules, Garages & Essence', link: '/Guides/vehicules-garages' },
           { text: '🎙️ Chat Vocal PMA & Radio', link: '/Guides/chat-vocal' },
           { text: '🔊 Gestion du Volume Audio', link: '/Guides/gestion-volume' },
@@ -79,8 +79,8 @@ export default defineConfig({
         text: '🚨 Services d\'Urgence',
         collapsed: false,
         items: [
-          { text: '👮 Police Cantonale & DARD', link: '/Services/police-securite' },
-          { text: '🏥 Réseau Hospitalier (144)', link: '/Services/hopital-secours' },
+          { text: '👮 Police Cantonale', link: '/Services/police-securite' },
+          { text: '🏥 Réseau Médical', link: '/Services/hopital-secours' },
         ],
       },
       {

@@ -1,10 +1,10 @@
-# 🎯 Système d'Interaction (Ox Target)
+# 🎯 Système d'Interaction
 
 Le serveur utilise le système de ciblage **Ox Target** (l'œil d'interaction). Il remplace les anciens marqueurs au sol par des interactions contextuelles précises et immersives.
 
 ---
 
-## 👁️ 1. Comment utiliser Ox Target ?
+## 👁️ 1. Comment utiliser le système de Target ?
 
 1. Maintenez la touche <kbd>ALT Gauche</kbd> enfoncée.
 2. Un réticule ou cercle interactif apparaît au centre de votre écran.
